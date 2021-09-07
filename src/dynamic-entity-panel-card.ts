@@ -42,7 +42,7 @@ console.info(
 });
 
 // TODO Name your custom element
-@customElement('boilerplate-card')
+@customElement('dynamic-entity-panel-card')
 export class BoilerplateCard extends LitElement {
   public static async getConfigElement(): Promise<LovelaceCardEditor> {
     return document.createElement('boilerplate-card-editor');
